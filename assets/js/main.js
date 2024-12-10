@@ -63,7 +63,7 @@
       }, 100);
       setTimeout(() => {
         preloader.remove();
-      }, 200);
+      }, 300);
     });
   }
   /**
