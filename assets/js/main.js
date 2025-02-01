@@ -77,7 +77,7 @@
     }
   }
   scrollTop.addEventListener('click', (e) => {
-  
+
   });
 
   window.addEventListener('load', toggleScrollTop);
@@ -93,7 +93,7 @@
       window.scrollY > 100 ? scrollTopTwo.classList.add('active') : scrollTopTwo.classList.remove('active');
     }
   }
-  scrollTop.addEventListener('click', (e) => {
+  scrollTopTwo.addEventListener('click', (e) => {
     e.preventDefault();
     window.scrollTo({
       top: 0,
